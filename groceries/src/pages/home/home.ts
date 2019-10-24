@@ -39,7 +39,7 @@ export class HomePage {
   //Action for Remove items functionality - removeItem()
   removeItem(item, index){
     const toast = this.toastCtrl.create({
-      message: 'Removing Item number '+ index,
+      message: 'Removing Item: '+ index,
       duration: 3000 }
     );
     toast.present();
@@ -49,7 +49,7 @@ export class HomePage {
   //Action for Share items functionality - shareItem()
   shareItem(item, index){
     const toast = this.toastCtrl.create({
-      message: 'Sharing Item number '+ index,
+      message: 'Sharing Item: '+ index,
       duration: 3000 }
     );
     toast.present();
@@ -66,7 +66,7 @@ export class HomePage {
   //Action for Edit items functionality - removeItem()
   editItem(item, index){
     const toast = this.toastCtrl.create({
-      message: 'Editing Item number '+ index,
+      message: 'Editing Item: '+ index,
       duration: 2000 }
     );
     toast.present();
